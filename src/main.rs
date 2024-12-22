@@ -1,8 +1,8 @@
-use crate::current_solution::title_to_number1;
+use crate::solutions::Problem171;
 
-mod current_solution;
 mod solutions;
 
 fn main() {
-    println!("abc {}", title_to_number1("A".to_string()));
+    println!("abc {}", Problem171::title_to_number("A".to_string()));
+    println!("abc {}", Problem171::title_to_number("ZY".to_string()));
 }
